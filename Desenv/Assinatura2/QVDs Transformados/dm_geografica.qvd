@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>12904</QvBuildNo>
+   <CreatorDoc>C:\Qlikview\Aplicação\QVD_ATEND\Paineis\Transformador_ATEND.qvw</CreatorDoc>
+   <CreateUtcTime>2015-11-06 08:09:11</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>dm_geografica</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>cd_prt</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>24</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>120</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$key</String>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>cd_unidade</FieldName>
+       <BitOffset>8</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>24</NoOfSymbols>
+       <Offset>120</Offset>
+       <Length>120</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>PRT</FieldName>
+       <BitOffset>16</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>24</NoOfSymbols>
+       <Offset>240</Offset>
+       <Length>192</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Unidade</FieldName>
+       <BitOffset>21</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>24</NoOfSymbols>
+       <Offset>432</Offset>
+       <Length>1020</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>tp_unidade</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>1452</Offset>
+       <Length>5</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Sigla da unidade</FieldName>
+       <BitOffset>26</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>24</NoOfSymbols>
+       <Offset>1457</Offset>
+       <Length>338</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>UF</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>23</NoOfSymbols>
+       <Offset>1795</Offset>
+       <Length>92</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ds_regiao</FieldName>
+       <BitOffset>37</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>5</NoOfSymbols>
+       <Offset>1887</Offset>
+       <Length>45</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>5</RecordByteSize>
+   <NoOfRecords>24</NoOfRecords>
+   <Offset>1932</Offset>
+   <Length>120</Length>
+   <Lineage>
+     <LineageInfo>
+       <Discriminator>INLINE</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - ..\QVDs Transformados\Atendimentos.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - ..\QVDs Transformados\Palavras.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - ..\QVDs Transformados\dm_geografica.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt01.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt02.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt03.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt04.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt05.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt06.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt07.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt08.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt09.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt10.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt11.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt12.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt13.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt14.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt15.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt16.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt17.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt18.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt19.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt20.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt21.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt22.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt23.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\atendimentos_prt24.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\dm_geografica.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt01.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt02.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt03.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt04.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt05.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt06.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt07.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt08.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt09.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt10.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt11.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt12.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt13.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt14.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt15.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt16.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt17.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt18.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt19.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt20.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt21.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt22.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt23.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>c:\qlikview\aplicação\qvd_atend\qvds extraidos\palavras_prt24.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+   </Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+ �  �  �  �  �  �  �  �  �  �  �  �  �  �  �  �  �  �  �  �  �  �  �  �  ��( �K`&J��H G��E�D@*�+@�B��@ x?`�=�j< �:�]9��7@P6��4 C3`�1�50 �.�(-PRT-01 PRT-24 PRT-23 PRT-22 PRT-21 PRT-20 PRT-19 PRT-02 PRT-03 PRT-18 PRT-17 PRT-16 PRT-15 PRT-14 PRT-13 PRT-12 PRT-11 PRT-10 PRT-09 PRT-08 PRT-07 PRT-06 PRT-05 PRT-04 PROC. REGIONAL TRABALHO 01ª  REGIAO - RJ PROC. REGIONAL TRABALHO 24ª REGIAO - MS PROC. REGIONAL TRABALHO 23ª REGIAO - MT PROC. REGIONAL TRABALHO 22ª  REGIAO - PI PROC. REGIONAL TRABALHO 21ª REGIAO - RN PROC. REGIONAL TRABALHO 20ª REGIAO - SE PROC. REGIONAL TRABALHO 19ª  REGIAO - AL PROC. REGIONAL TRABALHO 02ª REGIAO - SP PROC. REGIONAL TRABALHO 03ª REGIAO - MG PROC. REGIONAL TRABALHO 18ª  REGIAO - GO PROC. REGIONAL TRABALHO 17ª  REGIAO - ES PROC. REGIONAL TRABALHO 16ª REGIAO - MA PROC. REGIONAL TRABALHO 15ª  REGIAO/CAMP. PROC. REGIONAL TRABALHO 14ª REGIAO - RO PROC. REGIONAL TRABALHO 13ª REGIAO - PB PROC. REGIONAL TRABALHO 12ª  REGIAO - SC PROC. REGIONAL TRABALHO 11ª  REGIAO - AM PROC. REGIONAL TRABALHO 10ª  REGIAO - DF PROC. REGIONAL TRABALHO 09ª  REGIAO - PR PROC. REGIONAL TRABALHO 08ª REGIAO - PA PROC. REGIONAL TRABALHO 07ª REGIAO - CE PROC. REGIONAL TRABALHO 06ª REGIAO - PE PROC. REGIONAL TRABALHO 05ª REGIAO - BA PROC. REGIONAL TRABALHO 04ª  REGIAO - RS PRT PRT-1ª REG PRT-24ª REG PRT-23ª REG PRT-22ª  REG PRT-21ª  REG PRT-20ª REG PRT-19ª  REG PRT-2ª REG PRT-3ª REG PRT-18ª  REG PRT-17ª REG PRT-16ª REG PRT-15ª  REG PRT-14ª  REG PRT-13ª  REG PRT-12ª  REG PRT-11ª  REG PRT-10ª  REG PRT-9ª REG PRT-8ª REG PRT-7ª REG PRT-6ª REG PRT-5ª REG PRT-4ª  REG RJ MS MT PI RN SE AL SP MG GO ES MA RO PB SC AM DF PR PA CE PE BA RS SUDESTE CENTRO OESTE NORDESTE NORTE SUL      !!B"cC�D�E�F�!		)%)
+
+J)
+k-K�1�5l�9M�=�Bo1F0RJ�sNr�RS�VT�ZU�^�

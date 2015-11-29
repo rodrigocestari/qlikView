@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>12904</QvBuildNo>
+   <CreatorDoc>C:\qlikView\Desenv\Assinatura\paineis\Extrator Assinaturas.qvw</CreatorDoc>
+   <CreateUtcTime>2015-11-06 17:03:46</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>Assinaturas</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>prt</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>,</Dec>
+         <Thou>.</Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>5</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>tipo</FieldName>
+       <BitOffset>14</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>5</Offset>
+       <Length>36</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>indicador</FieldName>
+       <BitOffset>15</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>41</Offset>
+       <Length>18</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>data_inclusao</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>TIMESTAMP</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>59</Offset>
+       <Length>27</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$timestamp</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>nome_usuario</FieldName>
+       <BitOffset>2</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>86</Offset>
+       <Length>47</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>cpf_usuario</FieldName>
+       <BitOffset>4</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>133</Offset>
+       <Length>39</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>link_original</FieldName>
+       <BitOffset>6</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>172</Offset>
+       <Length>337</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>link_doctarja</FieldName>
+       <BitOffset>8</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>509</Offset>
+       <Length>335</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>link_validacao</FieldName>
+       <BitOffset>10</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>844</Offset>
+       <Length>296</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>mensagem</FieldName>
+       <BitOffset>12</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>1140</Offset>
+       <Length>93</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>2</RecordByteSize>
+   <NoOfRecords>3</NoOfRecords>
+   <Offset>1233</Offset>
+   <Length>6</Length>
+   <Lineage>
+     <LineageInfo>
+       <Discriminator>ODBC;DSN=PRT15_MPTD_PROD_QV</Discriminator>
+       <Statement>Assinaturas:
+
+
+LOAD `prt`,
+ 	 `tipo`,
+     `indicador`,
+     `data_inclusao`,
+     `nome_usuario`,
+     `cpf_usuario`,
+     `link_original`,
+     `link_doctarja`,
+     `link_validacao`,     
+     `mensagem`;SQL select 1215  		                    as prt,              
+		log.lgc_tipo					 	    as tipo,
+    	log.lgc_indicador						as indicador,
+       	log.lgc_dhexecucao                      as data_inclusao,
+       	log.lgc_nomeusuario                     as nome_usuario,
+       	log.lgc_cpfusuario                      as cpf_usuario, 
+       	log.lgc_modulo							as link_original,
+       	log.lgc_tipousuario                     as link_doctarja,
+		log.lgc_script                          as link_validacao,
+		log.lgc_servidor                        as mensagem			   
+    from CC_log log
+    where log.lgc_tipo like 'ASSINATURA:%'
+    limit 100</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>ODBC;DSN=PRT15_MPTD_PROD_QV</Discriminator>
+       <Statement>SQL select 1215  		                    as prt,              
+		log.lgc_tipo					 	    as tipo,
+    	log.lgc_indicador						as indicador,
+       	log.lgc_dhexecucao                      as data_inclusao,
+       	log.lgc_nomeusuario                     as nome_usuario,
+       	log.lgc_cpfusuario                      as cpf_usuario, 
+       	log.lgc_modulo							as link_original,
+       	log.lgc_tipousuario                     as link_doctarja,
+		log.lgc_script                          as link_validacao,
+		log.lgc_servidor                        as mensagem			   
+    from CC_log log
+    where log.lgc_tipo like 'ASSINATURA:%'
+    limit 100</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>STORE - C:\qlikView\Desenv\Assinatura\QVDs Extraidos\Assinaturas_PRT15.qvd (QVD)</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+   </Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+ ¿  ASSINATURA: MD5 ASSINATURA: SENHA VALIDA INVALIDA q'ˆÓ7©ä@”>éÓ7©ä@\„Ô7©ä@LINEU ALMENDRA CARVALHO  GestÃ£o do Sistema   3R.i0B70484120115  111.111.111-11 link original = https://trunk/processoEletronico/documentos/baixar_processo_eletronico.php?idArquivo=686556&codigoAcesso=YQBEM9KQAMCVRG75&op=baixarDocOriginal link original = link original = https://trunk/processoEletronico/documentos/baixar_processo_eletronico.php?idArquivo=686558&codigoAcesso=C8AX4X6DR1EQWHRW&op=baixarDocOriginal sLinkDocTarja = https://trunk/processoEletronico/documentos/baixar_processo_eletronico.php?idArquivo=686556&codigoAcesso=YQBEM9KQAMCVRG75&op=baixarConvertido sLinkDocTarja = sLinkDocTarja = https://trunk/processoEletronico/documentos/baixar_processo_eletronico.php?idArquivo=686558&codigoAcesso=C8AX4X6DR1EQWHRW&op=baixarConvertido sLinkValidacao = https://assinatura.mpt.gov.br/prt18/processoEletronico/consultas/valida_assinatura.php?m=3&id=686556&ca=YQBEM9KQAMCVRG75 sLinkValidacao = sLinkValidacao = https://assinatura.mpt.gov.br/prt18/processoEletronico/consultas/valida_assinatura.php?m=2&id=686558&ca=C8AX4X6DR1EQWHRW Descricao = Assinado MD5 Erro = Senha incorreta. Descricao = Documento assinado sem token   UÕªj
